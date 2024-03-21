@@ -1,0 +1,20 @@
+[0.330s] Invoking command in '/home/abhay/ros2_ws/build/my_robot_controller': PYTHONPATH=/home/abhay/ros2_ws/build/my_robot_controller/prefix_override:/home/abhay/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/abhay/ros2_ws/build/my_robot_controller/build --no-deps symlink_data
+[0.477s] running develop
+[0.551s] running egg_info
+[0.551s] writing my_robot_controller.egg-info/PKG-INFO
+[0.551s] writing dependency_links to my_robot_controller.egg-info/dependency_links.txt
+[0.551s] writing entry points to my_robot_controller.egg-info/entry_points.txt
+[0.551s] writing requirements to my_robot_controller.egg-info/requires.txt
+[0.551s] writing top-level names to my_robot_controller.egg-info/top_level.txt
+[0.552s] reading manifest file 'my_robot_controller.egg-info/SOURCES.txt'
+[0.552s] writing manifest file 'my_robot_controller.egg-info/SOURCES.txt'
+[0.553s] running build_ext
+[0.553s] Creating /home/abhay/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my-robot-controller.egg-link (link to .)
+[0.554s] Installing Circle script to /home/abhay/ros2_ws/install/my_robot_controller/lib/my_robot_controller
+[0.554s] Installing LEDControl script to /home/abhay/ros2_ws/install/my_robot_controller/lib/my_robot_controller
+[0.554s] Installing Position script to /home/abhay/ros2_ws/install/my_robot_controller/lib/my_robot_controller
+[0.554s] Installing test_node script to /home/abhay/ros2_ws/install/my_robot_controller/lib/my_robot_controller
+[0.554s] 
+[0.554s] Installed /home/abhay/ros2_ws/build/my_robot_controller
+[0.554s] running symlink_data
+[0.572s] Invoked command in '/home/abhay/ros2_ws/build/my_robot_controller' returned '0': PYTHONPATH=/home/abhay/ros2_ws/build/my_robot_controller/prefix_override:/home/abhay/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/abhay/ros2_ws/build/my_robot_controller/build --no-deps symlink_data

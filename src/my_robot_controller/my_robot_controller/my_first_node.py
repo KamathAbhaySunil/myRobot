@@ -10,7 +10,7 @@ class MyNode(Node):
          self.create_timer(1.0, self.timer_callback)
 
     def timer_callback(self):
-        self.get_logger().info("hello mother fucker" + str(self.counter_))
+        self.get_logger().info("hello " + str(self.counter_))
         self.counter_ += 1
 
 
