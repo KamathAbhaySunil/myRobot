@@ -6,7 +6,10 @@ class MyNode(Node):
 
     def __init__(self):
          super().__init__("first_node")
-         self.get_logger().info("Hello from ROS2")
+         self.create_timer(1.0, self.timer_callback)
+
+    def timer_callback(self):
+        self.get_logger().info("Hello")
 
 
 
