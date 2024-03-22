@@ -9,13 +9,13 @@ class LEDPubNode(Node):
         self.publisher_ = self.create_publisher(Bool, 'led_status', 10)
         self.timer = self.create_timer(0.5, self.run_input_loop)
         self.get_logger().info('LED controller node Initialized')
-        self.state = False
+        
 
     def publish_led_state(self, state):
         msg = Bool()
         msg.data = state
         self.publisher_.publish(msg)
-        self.get_logger().info(f'Publishing LED Status: {self.state}')
+        self.get_logger().info(f'Publishing LED Status: {state}')
 
     def run_input_loop(self):
         self.get_logger().info('Type N and enter to switch the LED on \n Type F and enter to switch the LED off')
@@ -25,9 +25,11 @@ class LEDPubNode(Node):
                 self.publish_led_state(True)
             elif user_input == 'f':
                 self.publish_led_state(False)
-            else:
+            elif user_input == 'c':
+                self.get_logger().info('Node is closing')
                 self.destroy_node()
                 rclpy.shutdown()
+            else :
                 break
 
 
