@@ -19,24 +19,11 @@ class TurtleControllerNode(Node):
         if pose.y > 9.0 or pose.y < 2.0 or pose.x > 9.0 or pose.x < 2.0:
             cmd.linear.x = 1.0
             cmd.angular.z = 0.9
-
         else:
             cmd.linear.x = 2.0
             cmd.angular.z = 0.0
-
-
-
-
-
-
-        
-
         self.cmd_vel_publisher_.publish(cmd)
-
-
-
-
-
+        
 def main(args=None):
     rclpy.init(args=args)
     node = TurtleControllerNode()
