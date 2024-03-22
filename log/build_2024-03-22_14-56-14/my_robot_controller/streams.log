@@ -1,0 +1,22 @@
+[0.324s] Invoking command in '/home/abhay/ros2_ws/build/my_robot_controller': PYTHONPATH=/home/abhay/ros2_ws/build/my_robot_controller/prefix_override:/home/abhay/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/abhay/ros2_ws/build/my_robot_controller/build --no-deps symlink_data
+[0.467s] running develop
+[0.537s] running egg_info
+[0.537s] writing my_robot_controller.egg-info/PKG-INFO
+[0.537s] writing dependency_links to my_robot_controller.egg-info/dependency_links.txt
+[0.537s] writing entry points to my_robot_controller.egg-info/entry_points.txt
+[0.537s] writing requirements to my_robot_controller.egg-info/requires.txt
+[0.537s] writing top-level names to my_robot_controller.egg-info/top_level.txt
+[0.539s] reading manifest file 'my_robot_controller.egg-info/SOURCES.txt'
+[0.539s] writing manifest file 'my_robot_controller.egg-info/SOURCES.txt'
+[0.540s] running build_ext
+[0.540s] Creating /home/abhay/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my-robot-controller.egg-link (link to .)
+[0.540s] Installing Circle script to /home/abhay/ros2_ws/install/my_robot_controller/lib/my_robot_controller
+[0.541s] Installing LEDControl script to /home/abhay/ros2_ws/install/my_robot_controller/lib/my_robot_controller
+[0.541s] Installing LEDstatus script to /home/abhay/ros2_ws/install/my_robot_controller/lib/my_robot_controller
+[0.541s] Installing Position script to /home/abhay/ros2_ws/install/my_robot_controller/lib/my_robot_controller
+[0.541s] Installing test_node script to /home/abhay/ros2_ws/install/my_robot_controller/lib/my_robot_controller
+[0.541s] Installing turtle_controller script to /home/abhay/ros2_ws/install/my_robot_controller/lib/my_robot_controller
+[0.541s] 
+[0.541s] Installed /home/abhay/ros2_ws/build/my_robot_controller
+[0.541s] running symlink_data
+[0.560s] Invoked command in '/home/abhay/ros2_ws/build/my_robot_controller' returned '0': PYTHONPATH=/home/abhay/ros2_ws/build/my_robot_controller/prefix_override:/home/abhay/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/abhay/ros2_ws/build/my_robot_controller/build --no-deps symlink_data

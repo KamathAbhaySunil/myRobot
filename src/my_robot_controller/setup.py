@@ -25,7 +25,8 @@ setup(
             "Circle = my_robot_controller.draw_circle:main",
             "Position = my_robot_controller.pose_subscriber:main",
             "LEDControl = my_robot_controller.LEDON:main",
-            "LEDstatus = my_robot_controller.LEDcon:main"
+            "LEDstatus = my_robot_controller.LEDcon:main",
+            "turcon = my_robot_controller.turtle_controller:main"
         ],
     },
 )
