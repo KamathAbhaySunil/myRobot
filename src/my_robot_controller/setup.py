@@ -24,7 +24,8 @@ setup(
             "test_node = my_robot_controller.my_first_node:main",
             "Circle = my_robot_controller.draw_circle:main",
             "Position = my_robot_controller.pose_subscriber:main",
-            "LEDControl = my_robot_controller.LEDON:main"
+            "LEDControl = my_robot_controller.LEDON:main",
+            "LEDstatus = my_robot_controller.LEDcon:main"
         ],
     },
 )
